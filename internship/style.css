@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+
+/* Используется несколько раз */
+
+span#color {
+    padding: 5px 5px ;
+    background: #FAFF00;
+    font-family: 'Montserrat', sans-serif;
+    width: 172px;
+    height: 54px;
+  }
+
+span#word{
+    position: relative;
+    color: #1D1D1D;
+    font-style:normal;
+    font-size: 40px;
+    font-family:'Montserrat';
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.line{
+    width: 80px;
+    height: 0px;
+    border: 4px solid #FAFF00;
+}
+
+.word_welc{
+    line-height: 28.6px;
+    color: #373737B2;
+    font-style: normal;
+    font-size: 22px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    line-height: 130%;
+}
+
+.words p{
+    margin-bottom:40px;
+}
+
+/* Профиль всё связанное с изображением */
+
+.profile img{
+    padding-top: 58px;
+    position: absolute;
+}
+
+.markup{
+    height: 517px;
+    width: 976px;
+    left: -17px;
+    top: 195px;
+}
+
+.student{
+    height: 654px;
+    width: 792px;
+    left: 108px;
+    top: 58px;   
+}
+
+.containers{
+    position: absolute;
+    height: 340px;
+    width: 520px;
+    right: 315px;
+    top:209px;
+    left: 1085px;
+}
+
+
+
+/* Кто может пройти стажировку */
+
+.box-1{
+    position: absolute;
+    width: 408px;
+    height: 260px;
+    top: 883px;
+    left: 315px;
+}
+
+
+/* Правая часть */
+
+.boxing{
+    justify-content:space-between;
+    min-height: 321px;
+    display:flex;
+    flex-wrap:wrap;
+    position: absolute;
+    width: 720px;
+    height: 1020px;
+    left: 865px;
+    top: 883px;
+}
+
+.item{
+    height: fit-content;
+    width: fit-content;
+    padding: 0px 40px;
+    font-size: 25px;
+}
+
+.item-1{
+    width: 25%;
+    height: 25%;
+}
+
+.item-2{
+    width: 25%;
+    height: 25%;
+}
+
+.item-3{
+    width: 25%;
+    height: 25%;
+}
+
+.item-4{
+    width: 25%;
+    height: 25%;
+}
+
+.border{
+    border-radius: 80px;
+    width: 80px;
+    height: 80px;
+    background: #FAFF00;
+    box-shadow: 0px 0px 20px #FAFF00;
+}
+
+.svg-1{
+    height: 37.38px;
+    width: 54px;
+    display: flex;
+    margin-left: 13px;
+    padding-top: 25px;
+}
+
+.svg-2{
+    height: 37px;
+    width: 42px;
+    display: flex;
+    margin-left: 19px;
+    padding-top: 22px;
+}
+
+.svg-3{
+    height: 40px;
+    width: 36px;
+    display: flex;
+    margin-left: 22px;
+    padding-top: 20px;
+}
+
+.svg-4{
+    height: 32px;
+    width: 46px;
+    display: flex;
+    margin-left: 17px;
+    padding-top: 24px;
+}
+
+.lines{
+    border: 2px solid #FAFF00;
+    width: 80px;
+    display: flex;
+    margin-top: -10px;
+}
+
+.outline{
+    position: relative;
+    bottom: 42px; 
+    left: 5px; 
+}
+
+
+/* Приглашение в компанию */
+
+.show{
+    position: relative;
+    top: 1669px;
+}
+
+.quality{
+    text-align: center;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.quality p{
+    margin: 5px;
+}
+
+.dung{
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dung p{
+    margin:5px;
+}
+
+.Megaphone{
+    text-align: center;
+    position: absolute;
+    top: 71%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.People{
+    text-align: center;
+    position: absolute;
+    top: 24%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Center-Star{
+    text-align: center;
+    position: absolute;
+    top: 38%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+.People p{
+    margin:5px;
+}
+
+.Rectangle-1{
+    position: absolute;
+    left:-44px;
+}
+
+.Rectangle-2{
+    position: absolute;
+    top: 103px;
+    left: -43px;
+}
+
+.container-1{
+    position: absolute;
+    display: flex;
+    margin: auto;
+    height: 700px;
+    width: 800px;
+}
+
+.content{
+    position: relative;
+    top: 15px;
+    max-height: 600px;
+    padding: 120px 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+.content-1{
+    position: relative;
+    left:65px;
+    flex: 0 0;
+}
+
+.content-2{
+    position: relative;
+    right: 10px;
+    bottom: 4px;
+    flex: 0 0 ;
+    
+}
+
+.content-3{
+    position: relative;
+    bottom:5px;
+    left:17px;
+    width: 174px;
+    height: 174px;
+    align-self: center;
+    flex: 0;
+    
+}
+
+.wordix{
+    height: 540px;
+    width: 630px;
+    position: absolute;
+    top:1896px;
+    right:339px;
+    left: 951px;
+}
+
+
+/* Слайдер/Онбординг */
+
+.onboarding{
+    display: block;
+    position: absolute;
+    top: 2820px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 803px;
+    max-width: 100%;
+    background-color:#1D1D1D;
+}
+
+.slide_center{
+    position: relative;
+    top: 67px;
+    width: 720px;
+    height: 610px;
+    left: 316px;
+}
+
+.slide-content{
+    width: 410px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.slide-content p{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.slide{
+    padding-left: 30px;
+    transition:all 1s;
+}
+/* сокрытие слайда */
+
+.block{
+    transform: scale(0);
+    display: block;
+    object-fit: cover;
+    width: 0;
+    height: 0;
+}
+
+/* Индикатор */
+
+.dots-wrapper{
+    position: relative;
+    top: 108px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.dot{
+    margin-left: 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: #F1F1F161;
+}
+
+.active{
+    background-color: #FAFF00;
+}
+
+/* Стрелки */
+
+.button{
+    height: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.next-button{
+    border: 0px solid ;
+    background-color: #1D1D1D;
+    margin:0;
+    position: relative;
+    bottom: 625px;
+    height: 803px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.back-button{
+    border: 0px solid ;
+    background-color: #1D1D1D;
+    position: relative;
+    bottom: 625px;
+    height: 803px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+
+/* Конец */
+
+.merit{
+    width: 630px;
+    height: 740px;
+    position: absolute;
+    top: 3687px;
+    left: 975px;
+    padding-bottom: 612px;
+}
+
+.merit_p{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    line-height: 150%;
+    color: #373737B2;
+}
+
+.letter{
+    position: absolute;
+    top: 3717px;
+    left: 315px;
+    height: 705px;
+    width: 500px;
+}
